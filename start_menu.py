@@ -48,7 +48,7 @@ class StartMenu:
         save_file.write(f"player_health={player_health}\n")
         save_file.write(f"player_attack={player_attack}\n")
 
-    print("Your game has been saved. You can now start the game loop.")
+    print("Your game has been saved. You can now start the game.")
     # Start the game loop here
     # For example, you could create a game loop that runs until the player's health reaches 0
     while True:
